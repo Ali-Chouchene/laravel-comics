@@ -1,0 +1,13 @@
+#footer-nav {
+    color: $white;
+
+    img {
+        height: 60px;
+        width: 50px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        margin: 1.5rem 0;
+        padding-right: .5rem;
+
+    }
+}

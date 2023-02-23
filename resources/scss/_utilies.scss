@@ -10,3 +10,31 @@
     margin: 0 auto;
     width: 1200px;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c {
+    flex-direction: column;
+}
+
+.row-b {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.mt {
+    margin-top: 2rem;
+}
+
+img {
+    display: block;
+}
