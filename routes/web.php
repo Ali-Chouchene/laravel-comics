@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $links = config('navbar');
     $f_card = config('cards');
+    $socials = config('socials');
 
-    $data = ['cards' => $f_card, 'links' => $links];
+    $data = ['cards' => $f_card, 'links' => $links, 'socials' => $socials];
 
     return view('home', $data);
 })->name('home');

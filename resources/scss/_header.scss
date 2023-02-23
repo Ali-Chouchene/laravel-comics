@@ -1,4 +1,12 @@
 header {
+    height: 15.5vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: $white;
+
     .up-header {
         background-color: $blue;
         color: $white;
@@ -17,7 +25,7 @@ header {
 
     .down-header {
         color: $black;
-        padding: 1rem 0;
+
 
         .row-b {
             display: flex;
@@ -41,6 +49,10 @@ header {
         }
 
         .navbar {
+            img {
+                display: block;
+            }
+
             a {
                 text-decoration: none;
                 font-weight: bold;
