@@ -6,15 +6,11 @@ return [
     ],
     [
         "text" => "COMICS",
-        "way" => "characters",
+        "way" => "comics",
     ],
     [
         "text" => "MOVIES",
         "way" => "movies",
-    ],
-    [
-        "text" => "COMICS",
-        "way" => "comics",
     ],
     [
         "text" => "TV",
