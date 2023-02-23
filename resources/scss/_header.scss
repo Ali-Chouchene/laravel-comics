@@ -1,7 +1,16 @@
 header {
     .up-header {
-        display: flex;
-        justify-content: flex-end;
-        background-color: ;
+        background-color: dodgerblue;
+        color: white;
+
+        .row {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0.5rem 0;
+        }
+
+        .me-5 {
+            margin-right: 5rem;
+        }
     }
 }
